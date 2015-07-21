@@ -1,5 +1,5 @@
 include $(SRC_PATH)build/msvc-common.mk
-LDFLAGS += /SUBSYSTEM:WINDOWS",5.01" user32.lib
+LDFLAGS += user32.lib
 CFLAGS_OPT += -MT -arch:IA32
 CFLAGS_DEBUG += -MTd -Gm
 
